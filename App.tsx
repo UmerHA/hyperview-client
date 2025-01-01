@@ -33,7 +33,7 @@ export default () => (
               <Hyperview
                 behaviors={Behaviors}
                 components={Components}
-                entrypointUrl={`${Constants.expoConfig?.extra?.baseUrl}/hyperview/public/index.xml`}
+                entrypointUrl={`${Constants.expoConfig?.extra?.baseUrl}/index`}
                 fetch={fetchWrapper}
                 formatDate={formatDate}
                 logger={new Logger(Logger.Level.log)}
